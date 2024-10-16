@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+background-color:#eeeeee;
+}
+
+.box {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(20, 1fr);
+	width: min(90vw, 1024px);
+	justify-items: space-between;
+	align-items: space-between;
+}
+
+.divL{
+margin-top:5px;
+margin-right:15px;
+justify-self:right;
+}
+
+.divR{
+margin-top:5px;
+margin-left:15px;
+justify-self:left;
+}

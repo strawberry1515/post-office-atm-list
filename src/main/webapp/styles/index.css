@@ -1,0 +1,111 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+background-color:#eeeeee;
+}
+
+.main{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.boxl{
+	 margin-top:60px;
+}
+
+.boxr{
+	margin-top:60px;
+	 width:600px;
+	 height:400px;
+	 background-color:transparent;
+	 display:flex;
+	 justify-content:center;
+	 align-items:center;
+}
+
+/*
+.main{
+	display:grid;
+	grid-template-rows:10vh 10vh 10vh 10vh 10vh;
+	grid-template-columns:10vw 10vw 10vw 10vw 10vw;
+}
+.box1{
+	background-color:black;
+	grid-row-start:1;
+	grid-column-start:1;
+	grid-row-end:3;
+	grid-column-end:3;
+}
+.box2{
+	background-color:green;
+	grid-area:2 2 -1 -1;	
+	
+}
+*/
+
+
+h2{
+margin-top:30px;
+margin-left:50px;
+padding-top:20px;
+height:50px;
+width:300px;
+text-align:center;
+border-radius:10px;
+background-color:lightgray;
+}
+
+table{
+margin-top:30px;
+margin-left: 50px;
+border-collapse:separate;
+box-shadow: 5px 5px 10px black, -5px -5px 10px white;
+}
+
+table,td{
+	border: 1px solid black;
+}
+
+.boxUD{
+	display:flex;
+	flex-direction:column;
+	justify-content:left;
+	align-items:center;
+}
+
+.boxLR{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
+
+label{
+margin-left:10px;
+margin-right:5px;
+}
+
+input[type=submit],input[type=button]{
+margin:5px 10px;
+padding:2px 5px;
+box-shadow: inset 0px 0px 3px black ;
+}
+
+input[type=text],input[type=checkbox],select{
+margin:5px 10px;
+padding:2px 5px;
+box-shadow: 0px 0px 1px black ;
+}
+
+input[type=checkbox]{
+margin:2px 2px;
+padding:2px 2px;
+}
+
+select{
+padding:2px;
+}
